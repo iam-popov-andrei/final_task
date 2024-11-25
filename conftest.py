@@ -9,9 +9,6 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="function")
 def browser(request):
     user_language = request.config.getoption("language")  # Получаем значение языка из аргументов
-    # Добавим обработку случая, когда пользователь не указывает язык интерфейса
-    if not user_language:
-        raise pytest.UsageError("--Specify the interface language")
     options = Options()
     options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
     # Инициализируем браузер

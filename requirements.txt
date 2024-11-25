@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 certifi==2024.8.30
 charset-normalizer==3.4.0
 colorama==0.4.6
@@ -11,3 +12,18 @@ requests==2.32.3
 selenium==3.14.0
 urllib3==2.2.1
 webdriver-manager==4.0.2
+=======
+certifi==2024.8.30
+charset-normalizer==3.4.0
+colorama==0.4.6
+idna==3.10
+iniconfig==2.0.0
+packaging==24.1
+pluggy==1.5.0
+pytest==8.3.3
+python-dotenv==1.0.1
+requests==2.32.3
+selenium==3.14.0
+urllib3==2.2.1
+webdriver-manager==4.0.2
+>>>>>>> cf556fee2b5ec9f9d03d80f5b425a0aa5b825932
